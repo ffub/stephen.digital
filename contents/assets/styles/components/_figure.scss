@@ -1,0 +1,39 @@
+/*
+ * Images, screens and illustrations
+ */
+
+$max: 700px;
+
+.figure {
+  margin: gutter()*.666 auto;
+  padding: 0 gutter();
+  max-width: $max;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    text-align: left;
+    font-size: 14px;
+    text-transform: none;
+  }
+}
+
+
+// .figure--wide {
+//   padding: 0 gutter();
+//   max-width: 100%;
+//   margin: gutter()*.666 0;
+//
+//   figcaption {
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
+//
+//   img, figcaption {
+//     width: 100%;
+//     max-width: 930px;
+//   }
+// }

@@ -1,0 +1,95 @@
+/*
+ * Navbar
+ *
+ * These sit atop each page and on the bottom of the project page window
+ */
+
+$height: 52px;
+
+.navbar {
+  min-height: $height;
+}
+
+.navbar__inner {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-height: $height;
+  text-align: left;
+  background: white;
+}
+
+.navbar__container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex: 1;
+  -webkit-align-items: center;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar__container--center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.navbar__container--left {
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  display: none;
+
+  @include breakpoint(medium) {
+    display: flex;
+  }
+}
+
+.navbar__container--right {
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  display: none;
+
+  @include breakpoint(medium) {
+    display: flex;
+  }
+}
+
+.navbar__item {
+  line-height: 1;
+  padding: 0 15px;
+
+  &:first-child {
+    padding-left: 30px;
+  }
+
+  &:last-child {
+    padding-right: 30px;
+  }
+}
+
+.navbar__item--flex {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.navbar__button {
+  display: block;
+}
+
+.navbar__logo {
+  @extend strong;
+}
+
+
+// Specific navbars
+
+.navbar--header .navbar__inner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #E4E8EB;
+  z-index: 100;
+//  box-shadow: 0 1px 0 #E4E8EB;
+}

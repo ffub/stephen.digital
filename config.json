@@ -1,0 +1,24 @@
+{
+  "port": 8888,
+  "locals": {
+    "assets": "/assets",
+    "images": "/assets/images",
+    "site": "http://stephen.digital",
+    "name": "Stephen Tomlinson",
+    "projects": [
+      "mountain-leader",
+      "what-on-earth",
+      "annie-sloan",
+      "food-matters",
+      "nlmc",
+      "macmillan-organiser"
+    ]
+  },
+  "plugins": [
+    "wintersmith-nunjucks",
+    "wintersmith-libsass"
+  ],
+  "node-sass": {
+    "includePaths": ["node_modules"]
+  }
+}

@@ -1,0 +1,28 @@
+{% if project %}
+<div
+  id="project-thumb--{{ project.metadata.id }}"
+  class="project-thumb">
+  <a class="u-block" href="{{project.url}}">
+    
+    {# {% if project.metadata.ga %}
+      <img class="ga-logo" src="{{assets}}/images/ga-logo.svg">
+    {% endif %} #}
+    
+    {% if project.metadata.preview %}
+      <img class="project-thumb__image" src="{{project.url}}{{project.metadata.preview}}">
+    {% else %}
+      <img class="project-thumb__image" src="{{project.url}}preview.png">
+    {% endif %}
+    
+    <header class="project-thumb__header">
+      <h2>
+        {{project.metadata.title}}
+      </h2>
+      {% if project.metadata.tags %}
+        <h6>{{project.metadata.tags|join(', ')}}</h6>
+      {% endif %}
+    </header>
+
+  </a>
+</div>
+{% endif %}

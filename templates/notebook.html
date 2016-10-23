@@ -1,0 +1,18 @@
+{% extends 'default.html' %}
+
+{% block body %}
+
+  {% for page in articles %}
+  <article>
+    <header>
+      <h1>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </h1>
+      {% if page.metadata.subtitle %}
+      <h2>{{ page.metadata.subtitle }}</h2>
+      {% endif %}
+    </header>
+  </article>
+  {% endfor %}
+  
+{% endblock %}

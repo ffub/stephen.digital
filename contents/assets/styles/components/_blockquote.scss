@@ -1,0 +1,29 @@
+blockquote {
+  margin: (gutter()/2) auto;
+  font-family: inherit;
+  
+  
+  .article > & {
+
+    p, cite {
+      padding-left: gutter();
+      padding-right: gutter();
+    }  
+  }
+
+  p {
+    font-family: $sans;
+    color: inherit;
+    color: #e74c3c;
+  }
+  
+  cite, .blockquote__author { 
+    display: block;
+    text-align: left;
+  }
+  
+  .blockquote__author__role {
+    color: #7f8c8d;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,10 @@
+<div class="project-grid">
+
+{% for item in projects %}
+  {% set project = contents.work[item]['index.md'] %}
+  <div class="project-grid__item">
+    {% include "global/project-thumb.html" %}
+  </div>
+{% endfor %}
+
+</div>

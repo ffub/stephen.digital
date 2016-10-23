@@ -1,0 +1,19 @@
+{% extends "default.html" %}
+
+{% block title %}
+  <title>Stephen Tomlinson - Interaction Designer</title>
+{% endblock %}
+
+{% block body %}
+    
+  <div class="container">
+    
+    <div class="intro">
+      {{page.metadata.description}}
+    </div>
+    
+    {% include "global/project-grid.html" %}
+  
+  </div>
+
+{% endblock %}
