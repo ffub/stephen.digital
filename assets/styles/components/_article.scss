@@ -1,0 +1,72 @@
+/*
+ * Article text for blog posts, project and other longform text
+ *
+ */
+
+$max: 700px;
+$page: 930px;
+
+.article {
+  margin: 40px auto;
+  text-align: center;
+
+  @include breakpoint(medium) {
+    margin: gutter() auto gutter();
+  }
+
+  @include breakpoint(large) {
+    margin-bottom: gutter()*2;
+  }
+
+  a {
+    color: #2E3133;
+
+    // Thick underline
+    @include underline(currentColor, 1.1, .2);
+
+    // Thin underline for retina
+    @media (-webkit-min-device-pixel-ratio: 2),
+       (min--moz-device-pixel-ratio: 2),
+       (min-resolution: 2dppx),
+       (min-resolution: 192dpi) {
+        @include underline(currentColor, 1.1, .1);
+    }
+  }
+
+  strong {
+    font-family: $sans;
+  }
+
+  & > p,
+  & > ul,
+  & > ol,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > table,
+  & > blockquote {
+    max-width: $max;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: gutter();
+    padding-right: gutter();
+  }
+}
+
+.article__header {
+  max-width: $max - 120px;
+  margin: 0 auto gutter()*.666;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.article__section {
+  max-width: $max;
+}
+
+.article__footer {
+  margin-top: 30px;
+}

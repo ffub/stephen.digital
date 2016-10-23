@@ -1,0 +1,11 @@
+.project-grid {
+  @include clearfix;
+}
+
+.project-grid__item {
+  margin-bottom: gutter();
+  
+  @include breakpoint(medium) {
+    @include gallery(6);
+  }
+}
