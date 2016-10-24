@@ -1,6 +1,6 @@
 BUILD_DIR=./build
 BIN=node_modules/.bin
-CSS=docs/assets/styles/app.css
+CSS=build/assets/styles/app.css
 
 node_modules: package.json
 	npm install
