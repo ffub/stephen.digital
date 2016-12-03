@@ -2,7 +2,7 @@
 id: meg-at-midnight
 title: Meg at Midnight
 description: "eCommerce design and build for a lingerie label"
-template: project.html
+layout: project.html
 color: "#8488B9"
 tags: [Design, Build, Ecommerce]
 actions:

@@ -2,7 +2,7 @@
 id: annie-sloan
 title: Annie Sloan Interiors
 description: "IA, design and front-end development for an interiors retailer and inventor of Chalk Paint&reg;"
-template: project.html
+layout: project.html
 color: "#9D9B88"
 year: 2014
 tags: [Design, Ecommerce]

@@ -2,7 +2,7 @@
 id: what-on-earth
 title: What on Earth Books
 description: "A redesign for an independent book publisher"
-template: project.html
+layout: project.html
 color: "hsl(8, 65%, 55%)"
 hero: hero.png
 year: 2014–2015

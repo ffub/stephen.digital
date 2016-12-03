@@ -2,24 +2,24 @@
 
 
 {% block head %}
-<meta property="og:title" content="{{page.title}}">
-<meta property="og:description" content="{{page.metadata.description}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
 <meta property="og:type" content="article">
-<meta property="og:url" content="{{site}}{{page.url}}">
-<meta property="og:image" content="{{site}}{{page.url}}preview.png">
+<meta property="og:url" content="{{site}}{{url}}">
+<meta property="og:image" content="{{site}}{{url}}preview.png">
 <meta property="og:image:width" content="900">
 <meta property="og:image:height" content="676">
 {% endblock %}
 
 {% block js %}
-{% if page.metadata.js %}
-<script src="{{page.metadata.js}}"></script>
+{% if js %}
+<script src="{{js}}"></script>
 {% endif %}
 {% endblock %}
 
 {% block topbar_right %}
   {% for project in projects %}
-      {% if project == page.metadata.id %}
+      {% if project == id %}
 
         {% if projects[loop.index0 - 1] %}
         <a class="navbar__item navbar__button" href="../{{projects[loop.index0 - 1]}}/">&larr; Previous</a>
@@ -39,18 +39,18 @@
   <article class="article">
 
       <header class="article__header">
-        <h1>{{page.title}}</h1>
+        <h1>{{title}}</h1>
         <h6>
-          {% if page.metadata.year %}
-            <span class="u-hide--small">{{page.metadata.year}} &ndash;</span>
+          {% if year %}
+            <span class="u-hide--small">{{year}} &ndash;</span>
           {% endif %}
-          {% if page.metadata.tags %}
-            {{page.metadata.tags|join(', ')}}
+          {% if tags %}
+            {{tags|join(', ')}}
           {% endif %}
         </h6>
       </header>
 
-      {{page.html|safe}}
+      {{contents|safe}}
 
   </article>
 

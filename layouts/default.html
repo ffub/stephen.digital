@@ -3,11 +3,11 @@
 
   <meta charset='utf-8'>
   <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-  <meta name="description" content="{{page.metadata.description}}">
+  <meta name="description" content="{{description}}">
 
   {% block title %}
-  <title>{% if page.metadata.title %}
-    {{page.metadata.title}} - Stephen Tomlinson
+  <title>{% if title %}
+    {{title}} - Stephen Tomlinson
   {% else %}
     Stephen Tomlinson
   {% endif %}</title>
@@ -16,7 +16,7 @@
   {% if robots %}<meta name="robots" content="{{robots}}">{% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{assets}}/styles/app.css">
+  <link rel="stylesheet" href="/assets/styles/app.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   {% block css %}
   {% endblock %}
@@ -24,7 +24,7 @@
   {% block head %}
   {% endblock %}
 
-  <body class="t-{{ page.template|replace(".html", "") }}">
+  <body class="t-{{ template|replace(".html", "") }}">
 
     <!-- Icons -->
     <div style="display: none">
@@ -40,8 +40,8 @@
     <div class="color-bar">
     {% for item in projects %}
       {% set project = contents.projects[item]['index.md'] %}
-      {% if project.metadata.color %}
-        <div class="colour-bar__block" style="background-color: {{project.metadata.color}}"></div>
+      {% if project.color %}
+        <div class="colour-bar__block" style="background-color: {{project.color}}"></div>
       {% endif %}
     {% endfor %}
     </div>
@@ -85,7 +85,7 @@
     <div class="content">
 
         {% block body %}
-          {{page.html}}
+          {{html}}
         {% endblock %}
 
     </div>

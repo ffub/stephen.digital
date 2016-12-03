@@ -1,6 +1,6 @@
 ---
 title: Profile
-template: profile.html
+layout: profile.html
 ---
 
 <figure class="figure">

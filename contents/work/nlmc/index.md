@@ -3,7 +3,7 @@ id: nlmc
 title: North London Mountaineering Club
 description: "A website, brand and internet presence for London's premier climbing club"
 hero: "nlmc-preview.png"
-template: project.html
+layout: project.html
 color: "#F5A623"
 tags: [Design, Build]
 actions:

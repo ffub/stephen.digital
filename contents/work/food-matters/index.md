@@ -3,7 +3,7 @@ id: food-matters
 title: Food Matters Live
 description: "A comprehensive information architecture and design blueprint for the Food Matters conference and its ongoing knowledge bank"
 color: "#4EB5B3"
-template: project.html
+layout: project.html
 year: 2013
 tags: [Information Architecture]
 preview: preview.jpg

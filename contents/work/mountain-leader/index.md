@@ -3,7 +3,7 @@ id: mountain-leader
 title: Mountain Leader
 description: "A climbing guidebook app designed as part of my User Experience Design course at General Assembly"
 color: "#4EB5B3"
-template: project.html
+layout: project.html
 year: 2015
 tags: [UX, Design, Mobile]
 preview: preview.jpg
