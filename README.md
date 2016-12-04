@@ -1,10 +1,15 @@
 My website.
 
-- Built with [Wintersmith][wintersmith], which handles templating through Nunjucks and compiles the CSS using libsass
-- Susy is used for grids
-- Autoprefixer is used for browser compatibility
+- Built with [Metalsmith][metalsmith]
+- Susy for grids
 - Hosted on Github pages (via gh-pages branch)
 
-See the Makefile for setup and build targets.
+Build:
 
-[wintersmith]: http://wintersmith.io/
+  npm run build
+
+Deploy:
+
+  npm run deploy
+
+[metalsmith]: http://metalsmith.io/
