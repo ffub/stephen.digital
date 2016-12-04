@@ -6,10 +6,10 @@ My website.
 
 Build:
 
-  npm run build
+    npm run build
 
 Deploy:
 
-  npm run deploy
+    npm run deploy
 
 [metalsmith]: http://metalsmith.io/
