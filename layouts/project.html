@@ -18,19 +18,15 @@
 {% endblock %}
 
 {% block topbar_right %}
-  {% for project in projects %}
-      {% if project == id %}
 
-        {% if projects[loop.index0 - 1] %}
-        <a class="navbar__item navbar__button" href="../{{projects[loop.index0 - 1]}}/">&larr; Previous</a>
-        {% endif %}
+  {% if previous %}
+  <a class="navbar__item navbar__button" href="{{previous.path.dhref}}">&larr; Previous</a>
+  {% endif %}
 
-        {% if projects[loop.index0 + 1] %}
-        <a class="navbar__item navbar__button" href="../{{projects[loop.index0 + 1]}}/">Next &rarr;</a>
-        {% endif %}
+  {% if next %}
+  <a class="navbar__item navbar__button" href="{{next.path.dhref}}">Next &rarr;</a>
+  {% endif %}
 
-      {% endif %}
-  {% endfor %}
 {% endblock %}
 
 {% block body %}
