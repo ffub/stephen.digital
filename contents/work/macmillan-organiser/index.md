@@ -2,7 +2,7 @@
 id: macmillan-organiser
 title: Macmillan Organiser
 description: "Wireframes and prototype for a digital version of Macmillan's Healthcare Manager"
-template: project.html
+layout: project.html
 color: "#5CB35C"
 tags: [Information Architecture]
 actions:

@@ -1,0 +1,62 @@
+{% extends "default.html" %}
+
+
+{% block head %}
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{site}}{{url}}">
+<meta property="og:image" content="{{site}}{{url}}preview.png">
+<meta property="og:image:width" content="900">
+<meta property="og:image:height" content="676">
+{% endblock %}
+
+{% block js %}
+{% if js %}
+<script src="{{js}}"></script>
+{% endif %}
+{% endblock %}
+
+{% block topbar_right %}
+
+  {% if previous %}
+  <a class="navbar__item navbar__button" href="{{previous.path.dhref}}">&larr; Previous</a>
+  {% endif %}
+
+  {% if next %}
+  <a class="navbar__item navbar__button" href="{{next.path.dhref}}">Next &rarr;</a>
+  {% endif %}
+
+{% endblock %}
+
+{% block body %}
+
+  <!-- Project article -->
+  <article class="article">
+
+      <header class="article__header">
+        <h1>{{title}}</h1>
+        <h6>
+          {% if year %}
+            <span class="u-hide--small">{{year}} &ndash;</span>
+          {% endif %}
+          {% if tags %}
+            {{tags|join(', ')}}
+          {% endif %}
+        </h6>
+      </header>
+
+      {{contents|safe}}
+
+  </article>
+
+  <div class="container">
+
+      <hr class="rule">
+
+      {% include "global/project-grid.html" %}
+
+  </div>
+
+
+{% endblock %}

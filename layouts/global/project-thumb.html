@@ -1,0 +1,24 @@
+{% if project %}
+<div
+  id="project-thumb--{{ project.id }}"
+  class="project-thumb">
+  <a class="u-block" href="{{project.path.dhref}}">
+
+    {% if project.preview %}
+      <img class="project-thumb__image" src="{{project.path.dhref}}{{project.preview}}">
+    {% else %}
+      <img class="project-thumb__image" src="{{project.path.dhref}}preview.png">
+    {% endif %}
+
+    <header class="project-thumb__header">
+      <h2>
+        {{project.title}}
+      </h2>
+      {% if project.tags %}
+        <h6>{{project.tags|join(', ')}}</h6>
+      {% endif %}
+    </header>
+
+  </a>
+</div>
+{% endif %}

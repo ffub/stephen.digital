@@ -1,0 +1,27 @@
+{% extends "default.html" %}
+
+
+{% block head %}
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="{{site}}{{url}}">
+{% endblock %}
+
+{% block js %}
+{% if js %}
+<script src="{{js}}"></script>
+{% endif %}
+{% endblock %}
+
+{% block body %}
+
+  <!-- Project article -->
+  <article class="article">
+
+      {{html}}
+
+  </article>
+
+
+{% endblock %}

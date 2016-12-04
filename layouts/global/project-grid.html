@@ -1,7 +1,6 @@
 <div class="project-grid">
 
-{% for item in projects %}
-  {% set project = contents.work[item]['index.md'] %}
+{% for project in work %}
   <div class="project-grid__item">
     {% include "global/project-thumb.html" %}
   </div>
