@@ -1,20 +1,17 @@
 ---
-id: mountain-leader
 title: Mountain Leader
 description: "A climbing guidebook app designed as part of my User Experience Design course at General Assembly"
-color: "#4EB5B3"
 layout: project.html
 year: 2015
 tags: [UX, Design, Mobile]
 preview: preview.jpg
-ga: true
 ---
 
-Mountain Leader is a climbing guidebook app I designed for a part-time course UX at [General Assembly][ga]. The app sets out to create the perfect companion to rock climbing in the United Kingdom.
+Mountain Leader is a climbing guidebook app I designed for a course at [General Assembly][ga]. The app sets out to create the perfect companion to rock climbing in the United Kingdom.
 
-## The Problem
+## Beyond the guidebook
 
-Currently, guide books are the standard way of discovering and navigating Britain's varied outdoor rock climbing. These are heavy, expensive (around £20 each) and need to be bought in advance of arriving at a climbing destination. My project started with the assumption that climbing guides will move to digital, be available on-demand and fit in your pocket.
+Guide books are the standard way of discovering and navigating Britain's varied outdoor rock climbing. These are heavy, expensive (around £20 each) and need to be bought in advance of arriving at a climbing destination. My project started with the assumption that climbing guides will move to digital, be available on-demand and fit in your pocket.
 
 Not only can a digital guide overcome some of the shortcomings of books, but it has the potential to be a more integrated, social climbing guide that's always up to date and draws on external data such as weather forecasts.
 
@@ -33,14 +30,13 @@ My areas of enquiry were as follows:
 <figure class="figure figure--wide">
   <img
     src="images/affinity-map.jpg"
-    srcset="images/affinity-map@2x.jpg 2x"
-  >
+    srcset="images/affinity-map@2x.jpg 2x">
   <figcaption>I used affinity mapping to find themes among my observations</figcaption>
 </figure>
 
 ## Findings
 
-I split the results of my research into individual observations and insights from which I could identify common themes. My broad findings were:
+I split the results of my research into individual observations and insights from which I could identify common themes. My findings were:
 
 * Climbers want to know as much as they can about a climb beforehand. They will use a variety of information sources to research a climb, especially if it is near the limit of their climbing abilities.
 
