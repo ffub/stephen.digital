@@ -4,7 +4,7 @@
  * These sit atop each page and on the bottom of the project page window
  */
 
-$height: 52px;
+$height: 60px;
 
 .navbar {
   min-height: $height;
@@ -103,17 +103,20 @@ $height: 52px;
   @extend strong;
 }
 
+.navbar {
+  border-bottom: .5px solid hsl(200, 20%, 90%);
+}
 
 // Specific navbars
 
-.navbar--header .navbar__inner {
-  border-bottom: 1px solid #E4E8EB;
-
-  @include breakpoint(medium) {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  //  box-shadow: 0 1px 0 #E4E8EB;
-  }
-}
+// .navbar--header .navbar__inner {
+//   border-bottom: 1px solid #E4E8EB;
+//
+//   @include breakpoint(medium) {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 100;
+//   //  box-shadow: 0 1px 0 #E4E8EB;
+//   }
+// }
