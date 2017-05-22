@@ -11,7 +11,7 @@ $page: 930px;
   text-align: center;
 
   @include breakpoint(medium) {
-    margin: gutter() auto gutter();
+    margin: gutter() 15% gutter();
   }
 
   @include breakpoint(large) {
@@ -20,16 +20,11 @@ $page: 930px;
 
   a {
     color: #2E3133;
+    border-bottom: 2px solid hsl(200, 80%, 85%);
+    transition: border 200ms ease;
 
-    // Thick underline
-    @include underline(currentColor, 1.1, .2);
-
-    // Thin underline for retina
-    @media (-webkit-min-device-pixel-ratio: 2),
-       (min--moz-device-pixel-ratio: 2),
-       (min-resolution: 2dppx),
-       (min-resolution: 192dpi) {
-        @include underline(currentColor, 1.1, .1);
+    &:hover {
+      border-bottom-color: hsl(200, 80%, 60%);
     }
   }
 

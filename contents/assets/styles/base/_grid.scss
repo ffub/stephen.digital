@@ -18,9 +18,13 @@ body {
 .container {
   text-align: left;
   margin: 0 auto;
-  padding: 0 gutter();
+  padding: 0 30px;
   box-model: content-box;
-  max-width: 80vw;
+
+  @include breakpoint(large) {
+    max-width: 80vw;
+    padding: 0 gutter();
+  }
 
   img {
     max-width: 100%;
