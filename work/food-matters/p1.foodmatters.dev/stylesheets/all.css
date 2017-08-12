@@ -201,8 +201,6 @@ html .fc,
 
 .fc-state-default {
 	background-color: #f5f5f5;
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
 	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
 	background-repeat: repeat-x;
 	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
@@ -224,8 +222,7 @@ html .fc,
 	color: #333333;
 	text-decoration: none;
 	background-position: 0 -15px;
-	-webkit-transition: background-position 0.1s linear;
-	        transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
 	}
 
 .fc-state-down,
@@ -1015,7 +1012,6 @@ img {
   background-color: white;
   border: 1px solid #dddddd;
   border-radius: 0;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   max-width: 100%;
@@ -2403,7 +2399,6 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   border: 1px solid #cccccc;
   border-radius: 0;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   /* line 702, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .form-control:focus {
@@ -2906,7 +2901,6 @@ input[type="button"].btn-block {
 /* line 10, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_component-animations.scss */
 .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear; }
   /* line 13, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_component-animations.scss */
   .fade.in {
@@ -2924,7 +2918,6 @@ input[type="button"].btn-block {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease; }
 
 @font-face {
@@ -5213,13 +5206,10 @@ a.thumbnail:focus {
   text-align: center;
   background-color: #428bca;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease; }
 
 /* line 62, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-striped .progress-bar {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px; }
 
@@ -5233,8 +5223,6 @@ a.thumbnail:focus {
   background-color: #5cb85c; }
   /* line 503, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .progress-striped .progress-bar-success {
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 85, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5242,8 +5230,6 @@ a.thumbnail:focus {
   background-color: #5bc0de; }
   /* line 503, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .progress-striped .progress-bar-info {
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 89, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5251,8 +5237,6 @@ a.thumbnail:focus {
   background-color: #f0ad4e; }
   /* line 503, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .progress-striped .progress-bar-warning {
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 93, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
@@ -5260,8 +5244,6 @@ a.thumbnail:focus {
   background-color: #d9534f; }
   /* line 503, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .progress-striped .progress-bar-danger {
-    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /* line 11, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_media.scss */
@@ -5619,7 +5601,7 @@ body.modal-open {
   .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -25%);
     transform: translate(0, -25%);
-    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
     transition: transform 0.3s ease-out; }
   /* line 45, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal.in .modal-dialog {
@@ -5960,7 +5942,6 @@ body.modal-open {
   .carousel-inner > .item {
     display: none;
     position: relative;
-    -webkit-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }
     /* line 23, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_carousel.scss */
     .carousel-inner > .item > img,
@@ -6015,9 +5996,6 @@ body.modal-open {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   /* line 82, /Users/stephen/.bundler/ruby/2.0.0/bootstrap-sass-1344c58711e9/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control.left {
-    background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
-    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
@@ -6025,9 +6003,6 @@ body.modal-open {
   .carousel-control.right {
     left: auto;
     right: 0;
-    background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
