@@ -1,5 +1,5 @@
 ---
 title: UX Designer
 layout: home.html
-description: A user experience designer with a passion for simple, elegant solutions. Skilled in user research, information architecture, visual design and front-end development
+description: An interaction designer, information architect and geek based in London, currently Sr. Experience Designer at Webcredible
 ---

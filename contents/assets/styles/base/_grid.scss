@@ -22,8 +22,8 @@ body {
   box-model: content-box;
 
   @include breakpoint(large) {
-    max-width: 80vw;
-    padding: 0 gutter();
+    width: 90vw;
+    max-width: 1000px;
   }
 
   img {
