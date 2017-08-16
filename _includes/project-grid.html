@@ -1,0 +1,11 @@
+<div class="project-grid">
+
+{% assign projects = site.work | sort: 'order' %}
+
+{% for project in projects %}
+  <div class="project-grid__item">
+    {% include project-thumb.html %}
+  </div>
+{% endfor %}
+
+</div>

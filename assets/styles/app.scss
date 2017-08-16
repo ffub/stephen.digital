@@ -1,0 +1,41 @@
+---
+---
+/*
+ * Bring it all together
+ *
+ */
+
+// Fonts
+@import "base/fonts";
+
+// Vars
+@import "base/variables";
+
+// Mixins and functions
+@import "utilities/decimal-place";
+@import "utilities/reset-list";
+@import "utilities/breakpoint";
+@import "utilities/underline";
+@import "utilities/clearfix";
+@import "utilities/utilities";
+@import "utilities/string_to_number";
+
+// Small base, at the element level and grouped by type
+@import "base/normalize";
+@import "base/grid";
+@import "base/flickity";
+@import "base/images";
+@import "base/typography";
+
+// A larger component using multiple elements such as header, footer, panel
+@import "components/actions";
+@import "components/article";
+@import "components/blockquote";
+@import "components/figure";
+@import "components/hero";
+@import "components/icon";
+@import "components/intro";
+@import "components/navbar";
+@import "components/project-grid";
+@import "components/project-thumb";
+@import "components/rule";

@@ -1,0 +1,11 @@
+<div class="post-list">
+
+{% for post in site.posts %}
+  <div class="post-list__item">
+    <a class="post-stub" href="{{post.url}}">
+      <h2>{{post.title}}</h2>
+    </a>
+  </div>
+{% endfor %}
+
+</div>

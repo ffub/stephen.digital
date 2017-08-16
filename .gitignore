@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+.image-optim*
 
 # Ignore Sass' cache
 /.sass-cache
