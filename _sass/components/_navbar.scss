@@ -8,6 +8,7 @@ $height: 60px;
 
 .navbar {
   min-height: $height;
+  padding: 0 1vw;
 }
 
 .navbar__inner {
@@ -18,7 +19,7 @@ $height: 60px;
   @include breakpoint(small) {
     text-align: center;
     min-height: $height;
-    padding: 10px 0;
+    padding: 10px;
   }
 
   @include breakpoint(medium) {
@@ -77,16 +78,8 @@ $height: 60px;
   display: inline-block;
   padding: 10px 20px;
 
-  &:first-child {
-    padding-left: 0;
-  }
-
-  &:last-child {
-    padding-right: 0;
-  }
-
   @include breakpoint(medium) {
-    padding: 0 15px;
+    padding: 0 2vw;
   }
 }
 
@@ -104,19 +97,5 @@ $height: 60px;
 }
 
 .navbar {
-  border-bottom: .5px solid hsl(200, 20%, 90%);
+  border-bottom: .5px solid hsl(200, 20%, 95%);
 }
-
-// Specific navbars
-
-// .navbar--header .navbar__inner {
-//   border-bottom: 1px solid #E4E8EB;
-//
-//   @include breakpoint(medium) {
-//     position: fixed;
-//     top: 0;
-//     width: 100%;
-//     z-index: 100;
-//   //  box-shadow: 0 1px 0 #E4E8EB;
-//   }
-// }
