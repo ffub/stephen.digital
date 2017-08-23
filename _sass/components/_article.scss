@@ -8,14 +8,19 @@ $page: 930px;
 
 .article {
   margin: 40px auto;
-  text-align: center;
+  text-align: left;
+  max-width: 700px;
 
   @include breakpoint(medium) {
-    margin: 6vw 15%;
+    margin: 6vw auto;
   }
 
   @include breakpoint(large) {
-    margin-bottom: 8vw;
+    margin-bottom: 8vw auto;
+  }
+
+  @include breakpoint(very-large) {
+    max-width: 800px;
   }
 
   a {
@@ -35,35 +40,14 @@ $page: 930px;
   strong {
     font-family: $sans;
   }
-
-  & > p,
-  & > ul,
-  & > ol,
-  & > h2,
-  & > h3,
-  & > h4,
-  & > table,
-  & > blockquote {
-    max-width: $max;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    padding-left: gutter();
-    padding-right: gutter();
-  }
 }
 
 .article__header {
-  max-width: $max - 120px;
   margin: 0 auto 3vw;
 
   h1 {
     margin-bottom: 10px;
   }
-}
-
-.article__section {
-  max-width: $max;
 }
 
 .article__footer {

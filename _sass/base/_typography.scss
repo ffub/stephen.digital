@@ -19,12 +19,14 @@ html {
 
   @include breakpoint(medium) {
     font-size: 18px;
-//    line-height: 1.666;
   }
 
   @include breakpoint(large) {
     font-size: 19px;
-//    line-height: 1.666;
+  }
+
+  @include breakpoint(very-large) {
+    font-size: 21px;
   }
 }
 
@@ -67,6 +69,7 @@ h2 {
   font-size: 20px;
   font-weight: 600;
   margin: 1.5em 0 .33em;
+  line-height: 1.5;
 
   @include breakpoint(medium) {
     font-size: 24px;

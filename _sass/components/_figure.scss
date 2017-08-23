@@ -2,12 +2,9 @@
  * Images, screens and illustrations
  */
 
-$max: 700px;
-
 .figure {
   margin: 2em auto;
-  padding: 0 1vw;
-  max-width: $max;
+  max-width: 100%;
 
   img {
     max-width: 100%;
