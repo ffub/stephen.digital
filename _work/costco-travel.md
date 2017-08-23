@@ -5,23 +5,19 @@ description: Design sprint for the UK roll-out of Costco Travel
 year: 2017
 tags:
   - UX
-  - Design sprints
+  - Design
+  - Webcredible
 ---
 
-Costco have launched their travel offering in the UK market, where Costco stores are well known but Costco's travel offering is not. They wanted to understand the online research and purchasing behaviours in the UK and market differences between the UK and the US. Furthermore, they wanted to use this roll out to apply a new responsive design language to their site.
+Costco have recently launched their travel offering in the UK market, focussing on car hire. They wanted to understand the online research and purchasing behaviours in the UK and market differences between the UK and the US. Furthermore, they wanted to use this roll out to apply a new responsive design language to their site.
 
-We ran research and design sprints, liaising with the team in Seattle and the UK team based in the UK to understand the market differences, identify a key problem area and prototype and validate solutions. I was project lead during the project.
+[Webcredible][webc] ran research and design sprints, liaising with teams in Seattle and the UK to understand the market differences, identify a key problem area and prototype and validate solutions. I was project lead during the project.
 
 ## Discovery sprint
 
-We travelled out to Seattle to meet the US travel team. We visited Costco's stores to see how travel was marketed in a retail environment, and ran workshops with key stakeholders from across the travel and IT teams to undersand their business requirements.
+We travelled out to Seattle to meet the US travel team and visit Costco's stores to see how travel was marketed in a retail environment. We ran workshops with key stakeholders from across the travel and IT teams to understand their business requirements.
 
-We then headed back to the UK, where we interviewed six users to get a feel for their shopping habits.
-
-- Backwards and forwards between Seattle and UK
-- Gruelling schedule
-- Workshops in Seattle, followed by discovery research in the UK
-- Short design sprint to focus on Car Rental
+We then headed back to the UK, where we interviewed users to get a feel for their shopping habits. We were interested in how they went about hiring a car for their holidays and what sort of research they did online. We also tested existing the existing, desktop-only car rental site from the US.
 
 {% include figure.html
   image="costco-travel/sketches.jpg"
@@ -44,3 +40,5 @@ The Costco team were impressed by how quickly the sketches came to life, but we 
 ## Outcome
 
 The Costco Travel site has recently gone live, incorporating many of our findings and we are continuing to work with Costco.
+
+[webc]: http://Webcredible.com
