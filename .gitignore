@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 /build
+/_site
 .image-optim*
 
 # Ignore Sass' cache
@@ -18,5 +19,6 @@
 .DS_Store
 
 # Ignore packages
+/.bundle
 /vendor
 /node_modules
