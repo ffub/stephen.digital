@@ -30,7 +30,7 @@ My areas of enquiry were as follows:
 * How do climbers use existing apps and websites?
 
 {% include figure.html
-  image="images/affinity-map.jpg"
+  image="mountain-leader/affinity-map.jpg"
   caption="I used affinity mapping to find themes among my observations"
 %}
 
@@ -54,7 +54,7 @@ I split the results of my research into individual observations and insights fro
 
 To condense the goals and motivations of the climbers I spoke to I identified three key personas.
 
-{% include figure.html image="images/personas.jpg" %}
+{% include figure.html image="mountain-leader/personas.jpg" %}
 
 London is one of the worst places in the UK to be a climber – the climb-able rock is at least three hours drive away. It was clear that my personas represented London-based climbers well, but further research would be required to capture the behaviour and motivations of climbers across the UK.
 
@@ -62,14 +62,14 @@ London is one of the worst places in the UK to be a climber – the climb-able r
 
 From the interviews and my own climbing experiences, I had a clear picture of a typical climbing trip and I found it really helpful to visualise this experience and record the sort of tools and experiences one might have across the day.
 
-{% include figure.html image="images/experience-map.png"
+{% include figure.html image="mountain-leader/experience-map.png"
   alt="An experience map of a typical climbing trip" %}
 
 ## Business Analysis
 
 I set an end goal of 10,000 active climbers using the app and worked back from there using [impact mapping][impact-mapping].
 
-{% include figure.html image="images/impact-map.jpg" %}
+{% include figure.html image="mountain-leader/impact-map.jpg" %}
 
 The key insights from the impact mapping were that:
 
@@ -82,7 +82,7 @@ The key insights from the impact mapping were that:
 
 My impact map identified where competitors could both help and hinder the apps chances. I analysed the key competitors by measuring them against key criteria.
 
-{% include figure.html image="images/competitor-charts.png" %}
+{% include figure.html image="mountain-leader/competitor-charts.png" %}
 
 ## Information Architecture
 
@@ -90,7 +90,7 @@ Mountain Leader's goal it to make the UK's climbing navigable, so it was crucial
 
 Rather than identify my own map of the UK's climbing regions, I contacted the British Mountaineering Council, who were happy to share the regions and crags they use for their Regional Access Database.
 
-{% include figure.html image="images/content-model.png" %}
+{% include figure.html image="mountain-leader/content-model.png" %}
 
 Adding to this I mapped out an architecture with the features I wanted to include in the app. I tested this with [Treejack][treejack], an excellent tool for trying out site maps. I tested **three tasks** with **ten participants**:
 
@@ -104,7 +104,7 @@ Participants were broadly able to complete the tasks with a success rate of 80% 
 
 For my prototype I wanted to concentrate on a few key tasks to validate my overall assumptions. I diagrammed each task flow, before designing the relevant screens.
 
-{% include figure.html image="images/task-flow.png" caption="Finding a route" %}
+{% include figure.html image="mountain-leader/task-flow.png" caption="Finding a route" %}
 
 Moving from Sketch to Marvel I put together a medium-fidelity app that could be tested on a phone. I then recruited and tested the app with eight participants. Marvel has recently added support for recording both a prototype's screen area and the participant's face – I used this functionality to record each session.
 
@@ -113,7 +113,7 @@ My **first test** set out to identify if the information architecture and interf
 The findings surprised me – no one found the search! I had used an icon on the top right, a familiar iOS convention, but all participants had immediately engaged with the menus further down the screen.
 
 {% include figure.html
-  image="images/mobile-mockup.png"
+  image="mountain-leader/mobile-mockup.png"
   caption="Navigating the crag, buttress and route screens"
 %}
 
