@@ -36,7 +36,7 @@ We split the project into a number of sprints to complete the design, working th
 
 For each channel I began by sketching the experience for mobile.
 
-{% include figure.html image="what-on-earth/sketches" alt="" %}
+{% include figure.html image="what-on-earth/sketches.jpg" alt="" %}
 
 ### Wireframes
 
