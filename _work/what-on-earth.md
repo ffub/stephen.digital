@@ -20,6 +20,8 @@ I started with a set of user interviews to understand the needs of What On Earth
 
 The most obvious thing the previous site needed was a thorough reorganisation. I created a content inventory to get a picture of everything the current site covered. We tested the site with a few teachers to uncover the shortcomings and rated content on its usefulness, accuracy and find-ability.
 
+A lack of consistent navigation meant that a lot of pages were not discoverable.
+
 {% include figure.html image="what-on-earth/content-audit.png" alt="" %}
 
 To target teachers we created a new database of teaching resources, which had previously been spread across the site. The blog was reorganised into new categories where much of the timely content that had previously been pages could now go.
