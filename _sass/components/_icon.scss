@@ -1,0 +1,12 @@
+.icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  line-height: 24px;
+  color: hsl(200, 20%, 75%);
+  fill: currentColor;
+
+  use {
+    fill: inherit;
+  }
+}

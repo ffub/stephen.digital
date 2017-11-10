@@ -1,0 +1,55 @@
+/*
+ * Article text for blog posts, project and other longform text
+ *
+ */
+
+$max: 700px;
+$page: 930px;
+
+.article {
+  margin: 40px auto;
+  text-align: left;
+  max-width: 700px;
+
+  @include breakpoint(medium) {
+    margin: 6vw auto;
+  }
+
+  @include breakpoint(large) {
+    margin-bottom: 8vw auto;
+  }
+
+  @include breakpoint(very-large) {
+    max-width: 800px;
+  }
+
+  a {
+    color: #2E3133;
+    border-bottom: 2px solid hsl(200, 80%, 85%);
+    transition: border 200ms ease;
+
+    &:hover {
+      border-bottom-color: hsl(200, 80%, 60%);
+    }
+
+    img {
+      border: 0 !important;
+    }
+  }
+
+  strong {
+    font-family: $sans;
+  }
+}
+
+.article__header {
+  margin: 0 auto 3vw;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.article__footer {
+  margin-top: 30px;
+}

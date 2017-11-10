@@ -1,0 +1,30 @@
+---
+name: Stephen Tomlinson
+description: An interaction designer, information architect and geek based in London
+url: http://stephen.digital/
+collections:
+  posts:
+    title: Blog
+    output: true
+  work:
+    title: Work
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: page
+    permalink: "/blog/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: work
+  values:
+    layout: project
+    permalink: "/work/:title/"
+permalink: pretty

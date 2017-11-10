@@ -1,0 +1,10 @@
+
+.project-grid {
+  margin: 3em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+}
+
+.project-grid__item {
+}

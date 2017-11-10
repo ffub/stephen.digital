@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!-- Project article -->
+<article class="article">
+
+    <header class="article__header">
+      <h1>{{page.title}}</h1>
+      <h6>
+        {% if page.year %}
+          <span class="u-hide--small">{{page.year}} &ndash;</span>
+        {% endif %}
+        {% if page.tags %}
+          {{page.tags|join:', '}}
+        {% endif %}
+      </h6>
+    </header>
+
+    {{page.content}}
+
+</article>
+
+<div class="container">
+
+    <hr class="rule">
+
+    {% include project-grid.html %}
+
+</div>

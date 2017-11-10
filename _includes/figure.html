@@ -1,0 +1,6 @@
+<figure class="figure figure--wide">
+  <img
+    {% if include.alt %}alt="{{include.alt}}"{% endif %}
+    src="/images/{{include.image}}">
+  {% if include.caption %}<figcaption>{{include.caption}}</figcaption>{% endif %}
+</figure>
