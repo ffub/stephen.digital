@@ -15,7 +15,7 @@ Costco have recently launched their travel offering in the UK market, initially 
 
 ## Discovery sprint
 
-We travelled out to Seattle to meet the US travel team and visit Costco's stores to see how travel was marketed in a retail environment. We ran workshops with key stakeholders from across the travel and IT teams to understand their business requirements.
+We travelled to Seattle to meet the US team and visit Costco first store, to see how travel was marketed in a retail environment. We ran workshops with key stakeholders from across the travel and IT teams to understand their business requirements.
 
 We then headed back to the UK, where we interviewed users to get a feel for their shopping habits. We were interested in how they went about hiring a car for their holidays and what sort of research they did online. We also tested existing the existing, desktop-only car rental site from the US.
 
