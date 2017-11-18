@@ -1,10 +1,41 @@
 
 .project-grid {
-  margin: 3em 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3em;
+  @include breakpoint(medium) {
+    margin: 3em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+  }
 }
 
-.project-grid__item {
+
+.project-grid__item + .project-grid__item {
+  margin-top: 2em;
+
+  @include breakpoint(medium) {
+    margin-top: 0;
+  }
+}
+
+
+// Structure
+
+.project-thumb {
+  @include breakpoint(medium) {
+    text-align: center;
+  }
+}
+
+.project-thumb__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-thumb__header {
+  padding: 20px 0 0;
+
+  h2 {
+    margin: 0 0 2px;
+  }
 }
