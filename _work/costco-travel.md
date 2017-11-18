@@ -1,4 +1,5 @@
 ---
+order: 1
 title: Costco Travel design sprints
 client: Costco
 description: Design sprint for the UK roll-out of Costco Travel

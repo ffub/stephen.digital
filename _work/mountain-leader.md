@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 3
 title: Mountain Leader
 description: "A climbing guidebook app designed as part of my User Experience Design course at General Assembly"
 year: 2015
