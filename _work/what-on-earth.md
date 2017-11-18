@@ -28,7 +28,7 @@ To target teachers we created a new database of teaching resources, which had pr
 
 {% include figure.html image="what-on-earth/sitemap.png" alt="" %}
 
-We tested out a number of different labelling schemes with Optimal Workshop's excellent <a href="https://www.optimalworkshop.com/treejack">Treejack</a> product.
+We tested out a number of different labelling schemes with Optimal Workshop's excellent [Treejack](https://www.optimalworkshop.com/treejack) product.
 
 ## Design
 
@@ -42,7 +42,7 @@ For each channel I began by sketching the experience for mobile.
 
 ### Wireframes
 
-I then created wireframes linked together with InvisionApp which gave us a working prototype of each section of the site.
+I then created wireframes linked together with [InVision](https://www.invisionapp.com/) which gave us a working prototype of each section of the site.
 
 {% include figure.html image="what-on-earth/mobile-wireframe-checkout.png" alt="" %}
 
