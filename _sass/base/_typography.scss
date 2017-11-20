@@ -45,13 +45,15 @@ a {
 }
 
 header {
-  text-align: center;
+  @include breakpoint(medium) {
+    text-align: center;
+  }
 }
 
 // Headings
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   margin: 0 0 10px;
   line-height: 1.3;
