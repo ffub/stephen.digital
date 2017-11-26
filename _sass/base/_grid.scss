@@ -2,6 +2,11 @@
  * Page grid
  */
 
+// Breakpoints mixin
+ @mixin breakpoint($size: 'large') {
+   @media #{map-get($breakpoints, $size)} { @content; }
+ }
+
 body {
   margin: 0;
   text-align: center;

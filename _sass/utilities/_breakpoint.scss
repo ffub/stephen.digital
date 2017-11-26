@@ -1,3 +1,0 @@
-@mixin breakpoint($size: 'large') {
-  @media #{map-get($breakpoints, $size)} { @content; }
-}

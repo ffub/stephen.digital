@@ -13,7 +13,13 @@ $mono: "Menlo", monospace;
   @return ($px / $base) * 1rem;
 }
 
-html {
+body {
+  background: white;
+  color: hsl(200, 10%, 10%);
+  font-family: $sans;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+
   font-size: 16px;
   line-height: 1.6;
 
@@ -28,15 +34,6 @@ html {
   @include breakpoint(very-large) {
     font-size: 21px;
   }
-}
-
-body {
-  background: white;
-  color: hsl(200, 10%, 10%);
-  font-family: $sans;
-  font-size: 1rem;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -110,21 +107,23 @@ strong {
 }
 
 ol, ul {
- @include reset-list;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
- li {
-   margin-left: 2rem;
+  li {
+    margin-left: 2rem;
 
-   &:before {
-    content: "•";
-    float: left;
-    margin-left: -1.5rem;
-    font-size: 24px;
-    line-height: 1.4rem;
-    vertical-align: middle;
-    color: #2E3133;
-   }
- }
+    &:before {
+      content: "•";
+      float: left;
+      margin-left: -1.5rem;
+      font-size: 24px;
+      line-height: 1.4rem;
+      vertical-align: middle;
+      color: #2E3133;
+    }
+  }
 }
 
 

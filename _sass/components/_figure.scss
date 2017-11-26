@@ -2,6 +2,10 @@
  * Images, screens and illustrations
  */
 
+ img[src$=".gif"], img[src$=".png"] {
+  image-rendering: optimizeQuality;
+ }
+
 .figure {
   margin: 2em auto;
   max-width: 100%;
@@ -18,20 +22,3 @@
     color: #8A9499;
   }
 }
-
-
-// .figure--wide {
-//   padding: 0 gutter();
-//   max-width: 100%;
-//   margin: gutter()*.666 0;
-//
-//   figcaption {
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-//
-//   img, figcaption {
-//     width: 100%;
-//     max-width: 930px;
-//   }
-// }
