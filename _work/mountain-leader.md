@@ -65,7 +65,7 @@ From the interviews and my own climbing experiences, I had a clear picture of a 
 {% include figure.html image="mountain-leader/experience-map.png"
   alt="An experience map of a typical climbing trip" %}
 
-## Business Analysis
+## Product strategy and competitive landscape
 
 I set an end goal of 10,000 active climbers using the app and worked back from there using [impact mapping][impact-mapping].
 
@@ -78,15 +78,13 @@ The key insights from the impact mapping were that:
 * To appeal to advertisers, the product needs to gather rich data on its users
 * Ultimately the product will need web views of the key screens to allow sharing and linking
 
-## Competitors
-
-My impact map identified where competitors could both help and hinder the apps chances. I analysed the key competitors by measuring them against key criteria.
+My impact map identified where competitors could both help and hinder the apps chances. I analysed the key competitors by measuring them against crucial criteria.
 
 {% include figure.html image="mountain-leader/competitor-charts.png" %}
 
 ## Information Architecture
 
-Mountain Leader's goal it to make the UK's climbing navigable, so it was crucial for the information architecture to match climbers' current mental model of climbs.
+Mountain Leader's goal is to make the UK's climbing navigable, so it's essential for the information architecture to match climbers' current mental model of climbs.
 
 Rather than identify my own map of the UK's climbing regions, I contacted the British Mountaineering Council, who were happy to share the regions and crags they use for their Regional Access Database.
 
@@ -98,7 +96,7 @@ Adding to this I mapped out an architecture with the features I wanted to includ
 * Bookmark a different crag and find it again
 * Find a crag you have been to recently
 
-Participants were broadly able to complete the tasks with a success rate of 80% and directness of 90%. Favourites proved to be hard for participants to understand with a few navigating to it before navigating elsewhere. After renaming a few paths and re-running the tasks I achieved a 90% success rate and 100% direcntess, a result I was happy with.
+Participants were broadly able to complete the tasks with a success rate of 80% and directness of 90%. Favourites proved to be hard for participants to understand with a few navigating to it before navigating elsewhere. After renaming a few paths and re-running the tasks I achieved a 90% success rate and 100% directness, a result I was happy with.
 
 ## Prototype
 
