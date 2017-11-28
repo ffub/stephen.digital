@@ -1,8 +1,29 @@
+// Body
+
+@font-face {
+    font-family: 'Adelle Sans';
+    src: url('../fonts/body-regular.woff2') format('woff2'),
+         url('../fonts/body-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adelle Sans';
+    src: url('../fonts/body-semibold.woff2') format('woff2'),
+         url('../fonts/body-semibold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+// Headings
+
 @font-face {
     font-family: 'Larsseit';
     src: url('../fonts/sans-regular.woff2') format('woff2'),
-         url('../fonts/sans-regular.woff') format('woff'),
-         url('../fonts/sans-regular.ttf') format('truetype');
+         url('../fonts/sans-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,8 +31,7 @@
 @font-face {
     font-family: 'Larsseit';
     src: url('../fonts/sans-bold.woff2') format('woff2'),
-         url('../fonts/sans-bold.woff') format('woff'),
-         url('../fonts/sans-bold.ttf') format('truetype');
+         url('../fonts/sans-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }

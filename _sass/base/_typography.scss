@@ -6,7 +6,8 @@
  *
  */
 
-$sans: "Larsseit", sans-serif;
+$sans: "Adelle Sans", sans-serif;
+$headings: "Larsseit", sans-serif;
 $mono: "Menlo", monospace;
 
 @function rem($px, $base: 16px) {
@@ -48,6 +49,10 @@ header {
 }
 
 // Headings
+
+h1, h2, h3 {
+  font-family: $headings;
+}
 
 h1 {
   font-size: 30px;
