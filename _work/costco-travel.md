@@ -10,13 +10,13 @@ tags:
   - Webcredible
 ---
 
-Costco have recently launched their travel offering in the UK market, initially focussing on car hire. Already knowledgeable about the US market, they wanted to understand online research and purchasing behaviours in the UK and how they differed from the US. Furthermore, they wanted to take this opportunity to apply a new responsive design language to their site.
+Costco have recently launched their travel offering in the UK market, initially focussing on car hire. They wanted to understand online research and purchasing behaviours in the UK and how they differed from the US. Furthermore, they wanted to take this opportunity to apply a new responsive design language to their site.
 
 [Webcredible][webc] ran research and design sprints, liaising with teams in Seattle and the UK to understand the market differences, identify a key problem area and prototype and validate solutions. I was project lead during the project.
 
 ## Discovery sprint
 
-We travelled to Seattle to meet the US team and visit Costco first store, to see how travel was marketed in a retail environment. We ran workshops with key stakeholders from across the travel and IT teams to understand their business requirements.
+We travelled to Seattle to meet the US team and visit Costco’s first store, to see how travel was marketed in a retail environment. We then ran workshops with key stakeholders from across the travel and IT teams to understand their business requirements.
 
 We then headed back to the UK, where we interviewed users to get a feel for their shopping habits. We were interested in how they went about hiring a car for their holidays and what sort of research they did online. We also tested existing the existing, desktop-only car rental site from the US.
 
