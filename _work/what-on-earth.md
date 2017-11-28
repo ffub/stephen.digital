@@ -32,21 +32,15 @@ We tested out a number of different labelling schemes with Optimal Workshop's ex
 
 ## Design
 
-We split the project into a number of sprints to complete the design, working through the four main channels.  
-
-### Exploration
+We split the project into a number of sprints to complete the design, working through the four main channels. 
 
 For each channel I began by sketching the experience for mobile.
 
 {% include figure.html image="what-on-earth/sketches.jpg" alt="" %}
 
-### Wireframes
-
 I then created wireframes linked together with [InVision](https://www.invisionapp.com/) which gave us a working prototype of each section of the site.
 
 {% include figure.html image="what-on-earth/mobile-wireframe-checkout.png" alt="" %}
-
-## Illustrations
 
 I worked with Andy Forshaw, the illustrator at What On Earth Books, to create bespoke illustrations for the website. We used monochrome illustrations to explain the format of the books and brought out characters from the books to illustrate features and topics.
 
@@ -73,4 +67,4 @@ The existing site sent out emails for new orders, dispatch and refunds. These em
 
 ## The results
 
-Sales revenue has tripled over the last quarter compared to the same quarter in the previous year and the website has had a lot of positive feedback from schools and parents alike.
+Sales revenue tripled over the last quarter of 2015, compared to the same quarter in the previous year and the website has had a lot of positive feedback from schools and parents alike.
