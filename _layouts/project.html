@@ -6,7 +6,6 @@ layout: default
 <article class="article">
 
     <header class="article__header">
-      <h1>{{page.title}}</h1>
       <h6>
         {% if page.year %}
           <span class="u-hide--small">{{page.year}} &ndash;</span>
@@ -15,6 +14,7 @@ layout: default
           {{page.tags|join:', '}}
         {% endif %}
       </h6>
+      <h1>{{page.title}}</h1>
     </header>
 
     {{page.content}}
