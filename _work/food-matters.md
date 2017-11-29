@@ -30,7 +30,7 @@ After we had settled on a sitemap and worked up our first user journeys I set ab
 
 {% include figure.html image="food-matters/fm-wireframes.png" alt="What's On page wireframe" %}
 
-## HTML Prototype
+## HTML prototype
 
 After a few iterations of wireframes and feedback, I moved to HTML and CSS to create a clickable prototype. I used the [Bootstrap][bootstrap] CSS framework and a static site generator, [Middleman][middleman], to aid in rapid development.
 

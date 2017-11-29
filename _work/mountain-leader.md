@@ -82,7 +82,7 @@ My impact map identified where competitors could both help and hinder the apps c
 
 {% include figure.html image="mountain-leader/competitor-charts.png" %}
 
-## Information Architecture
+## Information architecture
 
 Mountain Leader's goal is to make the UK's climbing navigable, so it's essential for the information architecture to match climbers' current mental model of climbs.
 

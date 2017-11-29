@@ -12,11 +12,11 @@ tags:
 
 What On Earth Books is an independent publisher that produces Wallbooks, all-encompassing illustrated timelines of subjects as diverse as natural history, the complete works of Shakespeare and sport. I redesigned their site to increase sales, refocus the content and improve brand awareness.
 
-## User Research
+## User research
 
 I started with a set of user interviews to understand the needs of What On Earth’s customers: parents, teachers and home educators. I was particularly keen to hear how they kept their children stimulated, discovered new resources and decorated their learning environments. From these interviews I developed a set of personas – archetypes that bring to life the site’s visitors.
 
-## Information Architecture
+## Information architecture
 
 The most obvious thing the previous site needed was a thorough reorganisation. I created a content inventory to get a picture of everything the current site covered. We tested the site with a few teachers to uncover the shortcomings and rated content on its usefulness, accuracy and find-ability.
 
