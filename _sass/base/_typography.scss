@@ -19,7 +19,11 @@ body {
   color: hsl(200, 10%, 10%);
   font-family: $sans;
   font-weight: normal;
+  
+  font-feature-settings:"kern" 1;
+  font-kerning: normal;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
 
   font-size: 17px;
   line-height: 1.6;
