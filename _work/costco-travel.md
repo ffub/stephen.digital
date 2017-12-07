@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Bringing Costco Travel to the UK with design sprints
+title: Costco Travel
 client: Costco
 description: Design sprint for the UK roll-out of Costco Travel
 year: 2017
