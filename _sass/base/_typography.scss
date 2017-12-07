@@ -59,11 +59,11 @@ h1 {
   line-height: 1.2;
 
   @include breakpoint(medium) {
-    font-size: 36px;
+    font-size: 44px;
   }
 
   @include breakpoint(large) {
-    font-size: 44px;
+    font-size: 56px;
   }
 }
 
