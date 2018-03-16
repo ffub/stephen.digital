@@ -10,7 +10,7 @@ tags:
 
 Annie Sloan is an interior designer and the inventor of the hugely successful Chalk Paint. She has grown her business from a small shop in Oxford to a global brand with over twelve hundred stockists. I designed a new site to act as an effective online store and an essential reference for her fans worldwide.
 
-## Responsive by design
+## Responsive design
 
 Mobile screen sizes see the largest number of sessions on Annisloan.com, followed by desktop and tablet. I designed the site from mobile up to work across all devices.
 
