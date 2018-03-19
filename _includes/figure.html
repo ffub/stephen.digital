@@ -2,5 +2,5 @@
   <img
     {% if include.alt %}alt="{{include.alt}}"{% endif %}
     src="/images/{{include.image}}">
-  {% if include.caption %}<figcaption>{{include.caption}}</figcaption>{% endif %}
+  {% if include.caption %}<figcaption>{{include.caption|smartify}}</figcaption>{% endif %}
 </figure>
