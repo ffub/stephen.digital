@@ -10,6 +10,10 @@ tags:
   - Webcredible
 ---
 
+I lead a project to bring Costco Travel to the UK, redesign their car rental booking flow to work across screen sizes and help them understand the market differences between their US and UK customers.
+
+## The challenge
+
 Costco have recently launched their travel offering in the UK market, initially focussing on car hire. They wanted to understand online research and purchasing behaviours in the UK and how they differed from the US. Furthermore, they wanted to take this opportunity to apply a new responsive design language to their site.
 
 [Webcredible][webc] ran research and design sprints, liaising with teams in Seattle and the UK to understand the market differences, identify a key problem area and prototype and validate solutions. I lead the project, working with [Chris How][chris].
