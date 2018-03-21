@@ -31,7 +31,7 @@ The pictured car is usually indicative on car rental sites — you buy the car b
   caption="The Costco's Low Price Finder presents a grid of car classes, against brands"
 %}
 
-Costco's US site delivered results as a grid, known as their Low Price Finder. This was polarising. Users that understood the structure of the table were able to efficiently marry up the two dimensions — class and brand — to find the price point that suited them. But to some users this was a confusing spreadsheet when they were expecting a list of cars with photos.
+Costco's US site delivered results as a grid, known as their Low Price Finder. This was polarising. Users that understood the structure of the table were able to efficiently marry up the two dimensions — class and brand — to find the price point that suited them. But to some users, this was a confusing spreadsheet when they were expecting a list of cars with photos.
 
 ## Design sprint
 
@@ -42,14 +42,14 @@ In Seattle, we delivered our findings to the US team, and used them as the sprin
   caption="We mapped out the key parts of the journey and sketched design solutions together with the Costco team in Seattle"
 %}
 
-In our workshops we explored ways of bringing the grid view to mobile, and explored alternatives that were more image-led. Three promising approaches came out of our sketching and we were able to quickly put together rough prototypes of them all within a day.
+In our workshops we explored ways of bringing the grid view to mobile, and explored alternatives that were more image-led. Three promising approaches came out of our sketching and we were able to quickly put together initial prototypes of them all within a day.
 
 {% include figure.html
   image="costco-travel/results-screen.jpg"
   caption="We tested three variants of the results screen"
 %}
 
-There prototypes adopted the responsive design language of the few responsive pages on Costco's US site and used Axure's advanced repeater functionality to add realistic data to each of the screens.
+There prototypes adopted the responsive design language of the responsive pages on Costco's US site and used Axure's advanced repeater functionality to add realistic data to each of the screens.
 
 The Costco team were impressed by how quickly the sketches came to life. We further iterated our designs before heading back to the UK to test them out with users.
 
