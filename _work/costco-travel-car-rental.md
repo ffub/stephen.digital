@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Costco Travel
+title: Costco Travel Car Rental
 client: Costco
 description: Design sprint for the UK roll-out of Costco Travel
 year: 2017
