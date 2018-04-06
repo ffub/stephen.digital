@@ -2,8 +2,12 @@
 <div class="project-thumb">
   <a class="u-block" href="{{project.url}}">
 
-    <img class="project-thumb__image" src="/images/{{project.slug}}/preview.png">
-
+    {% if project.preview %}
+      <img class="project-thumb__image" src="/images/{{project.preview}}">
+    {% else %}
+      <img class="project-thumb__image" src="/images/{{project.slug}}/preview.png">
+    {% endif %}
+    
     <header class="project-thumb__header">
       <h2>
         {{project.title}}
