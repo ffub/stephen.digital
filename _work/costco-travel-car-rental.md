@@ -4,6 +4,7 @@ title: Costco Travel Car Rental
 client: Costco
 description: Design sprint for the UK roll-out of Costco Travel
 year: 2017
+preview: images/costco-travel/preview.png
 tags:
   - UX
   - Design
