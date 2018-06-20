@@ -48,7 +48,7 @@ a {
 // Headings
 
 h1, h2, h3 {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1 {
@@ -93,11 +93,10 @@ h5 {
 
 h6 {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: hsl(200, 10%, 50%);
+  font-size: 16px;
+  font-weight: 100;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: hsl(200, 10%, 60%);
   margin: 0 0 .5em;
 }
 
@@ -143,7 +142,7 @@ ol {
 }
 
 p, ul, ol {
-  color: hsl(200, 10%, 20%);
+  color: hsl(200, 15%, 30%);
   line-height: 1.55;
   margin: 0 auto 1.5em;
 }
