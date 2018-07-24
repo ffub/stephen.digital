@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: ffub/stephen.digital
   branch: master # Branch to update (optional; defaults to master)
 # This line should *not* be indented
 media_folder: "images" # Media files will be stored in the repo under images/uploads
