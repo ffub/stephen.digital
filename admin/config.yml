@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+# This line should *not* be indented
+media_folder: "images" # Media files will be stored in the repo under images/uploads
+collections:
+  - name: "work"
+    label: "Work"
+    folder: "_work"
+    create: true
+    fields:
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Client", name: "client", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Year", name: "year", widget: "string"}
